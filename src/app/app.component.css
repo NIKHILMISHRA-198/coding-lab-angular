@@ -1,0 +1,47 @@
+
+ #userForm {
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+ }
+
+ h1 {
+     margin-left: 460px;
+     /* text-align: center; */
+     color:darkgoldenrod;
+     font-family: monospace;
+ }
+
+ input {
+     font-size: 20px;
+     font-family: monospace;
+ }
+ button#update {
+    width: 80px;
+    margin-left: 180px;
+}
+
+ #result {
+    color : green;
+    margin-left:450px;
+    font-size: 30px;
+    margin-top: 10px;
+ }
+
+
+ .userForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .userForm > * {
+    width: 50%;        
+    margin-left: auto;
+    margin-right: auto;
+    font-size:20px;
+  }
+
+  mat-form-field {
+      width:50%;
+      margin-bottom: 10px ;
+  }
